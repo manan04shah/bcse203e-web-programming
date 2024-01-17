@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="cart.css" />
+  </head>
+  <body>
+    <div class="heading">
+      <h1>ORDER OVERVIEW</h1>
+    </div>
+    <div class="selectMethod">
+      <h1>PLEASE SELECT A PAYMENT METHOD</h1>
+    </div>
+    <div class="card">
+      <h1>CREDIT / DEBIT CARD</h1>
+    </div>
+    <div class="cardDetails">
+      <div class="name">
+        <div class="firstName">
+          <div class="texts">
+            <p>First name</p>
+            <p class="optional">Optional</p>
+          </div>
+          <input type="text" placeholder="John" />
+        </div>
+        <div class="lastName">
+          <p>Last name</p>
+          <input type="text" placeholder="Doe" />
+        </div>
+      </div>
+      <div class="carddetails">
+        <div class="image-input" id="cardno">
+          <p>Card number</p>
+          <img src="creditcard.png" alt="Card Icon" />
+          <input type="text" placeholder="•••• •••• •••• ••••" />
+        </div>
+        <div class="image-input" id="cvv">
+          <p>CVV</p>
+          <img src="creditcard.png" alt="Card Icon" />
+          <input type="text" placeholder="•••" />
+        </div>
+      </div>
+      <div class="images">
+        <img src="cardproviders.png" alt="Card Providers" />
+      </div>
+      <button class="makepayment">Make Payment</button>
+    </div>
+  </body>
+</html>
