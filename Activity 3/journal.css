@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 50%;
+    border: 3px double black;
+    padding: 1vw;
+}
+
+.inputField {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1vw;
+}
+
+label {
+    width: 10vw;
+    font-weight: bold;
+}
+
+button {
+    width: 10vw;
+    padding: 0.5vw;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    font-weight: bold;
+}
+
+.submitButton {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journal Subscription Page</title>
+    <link rel="stylesheet" href="journal.css">
+</head>
+<body>
+    <h1>Journal Subscription Form</h1>
+    <form name="subscriptionForm" action="" method="post" class="subscriptionForm">
+        <div class="inputField">
+            <label for="datePicker">Date: &nbsp;</label>
+            <input type="date" name="datePicker" id="datePicker">
+        </div>
+        <div class="inputField">
+            <label for="duration">Subscription Duration: &nbsp;</label>
+            <input type="range" min="0" max="100" step="1" value="1" name="durationPicker">
+        </div>
+        <div class="inputField">
+            <label for="occupation">Occupation: &nbsp;</label>
+            <input type="radio" name="occupationChoice" id="student">&nbsp;Student&nbsp;
+            <input type="radio" name="occupationChoice" id="professional">&nbsp;Professional
+        </div>
+        <div class="inputField">
+            <label for="title">Journal Titles: &nbsp;</label>
+            <div class="checkboxes">
+                <input type="checkbox" name="titleChoice" id="one"> Journal of Computer Science<br>
+                <input type="checkbox" name="titleChoice" id="two"> Journal of Software Engineering<br>
+                <input type="checkbox" name="titleChoice" id="three"> Journal of Information Technology<br>
+                <input type="checkbox" name="titleChoice" id="four"> Journal of Electronics Engineering<br>
+                <input type="checkbox" name="titleChoice" id="five"> Journal of Electrical Engineering<br>
+            </div>
+        </div>
+        <div class="inputField">
+            <label for="numSubs">No. of subscriptions: &nbsp;</label>
+            <input type="number" name="numSubs" id="numSubs" min="10" max="200" value="10">
+        </div>
+        <div class="inputField">
+            <label for="websiteUrl">Website URL: &nbsp;</label>
+            <input type="url" name="websiteUrl" id="websiteUrl" placeholder="https://www.example.com" pattern="https?://.*">
+        </div>
+        <div class="submitButton">
+            <button type="submit">Subscribe</button>
+        </div>
+    </form>
+</body>
+</html>
