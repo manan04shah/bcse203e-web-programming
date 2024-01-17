@@ -21,6 +21,10 @@ button {
 
 .buttons {
     padding-left: 0.5vh;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 .loginForm {
@@ -34,11 +38,24 @@ button {
     text-align: center;
 }
 
+.legendDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .inputField {
     padding: 1vh;
 }
 
+
 label {
     display: inline-block;
-    width: 6.5vw;
+    width: auto;
+    min-width: 10vw;
+    text-align: right;
+}
+
+#address {
+    display: flex;
 }
