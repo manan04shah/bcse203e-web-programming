@@ -34,6 +34,7 @@ form {
 label {
     width: 10vw;
     font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 button {
@@ -50,14 +51,11 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: aqua;
 }
 
 .checkboxes {
     color:darkgreen;
-}
-
-label {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 input[type="range"] {
@@ -66,4 +64,19 @@ input[type="range"] {
     border-radius: 5px;
     background-size: 70% 100%;
     color: aqua;
+}
+
+#occupation {
+    width: 25vw;
+    height: 7px;
+    border-radius: 5px;
+    background-size: 70% 100%;
+    color:brown;
+}
+
+#url {
+    height: 7px;
+    border-radius: 5px;
+    background-size: 70% 100%;
+    color:darkgreen;
 }
