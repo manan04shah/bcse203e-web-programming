@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #030637;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+    background-color: #030637;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 3vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    list-style: none;
+}
+
+li a{
+    padding: 0 1vw;
+    color: white;
+    text-decoration: none;
+    font-size: 2.5vmin;
+}
+
+li a:hover {
+    color: #910a67;
+    transition: 0.25s;
+}
+
+.container {
+    display: flex;
+    height: 89vh;
+}
+
+.left-box {
+    width: 70vw;
+    height: 89vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-bottom {
+    height: 54vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+
+.welcomeMessage {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 7.5vmin;
+}
+
+.overviewMessage {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3vmin;
+}
+
+.name {
+    color: #910a67;
+    font-size: 10vmin;
+}
+
+.right-box {
+    width: 30vw;
+    height: 89vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid #720455;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.contact-form label,
+.contact-form textarea,
+.contact-form input {
+    width: 80%;
+    padding: 10px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    background-color: #910a67;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 2vmin;
+    margin-top: 2vh;
+}
+
+.contact-form button:hover {
+    background-color: #720455;
+    transition: 0.25s;
+}
+
+.right-box .social-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2vh;
+    font-size: large;
+}
+
+.right-box .social-links a:hover {
+    text-decoration: underline;
+    transition: 0.25s;
+}
+
+.right-box .social-links a {
+    color: #910a67;
+    text-decoration: none;
+}
+
+.right-box .email {
+    color: white;
+    font-size: 2vmin;
+}
+
+label {
+    color: white;
+    text-align: left;
+}
+
+.right-box h2 {
+    color: white;
+    font-size: 3vmin;
+}

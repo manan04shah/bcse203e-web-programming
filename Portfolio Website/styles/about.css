@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #030637;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 8vh;
+  font-family: "Poppins", sans-serif;
+  padding-top: 3vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  margin: 0;
+}
+
+.navigationList {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  list-style: none;
+}
+
+li a {
+  padding: 0 1vw;
+  color: white;
+  text-decoration: none;
+  font-size: 2.5vmin;
+}
+
+li a:hover {
+  color: #910a67;
+  transition: 0.25s;
+}
+
+.container {
+    display: flex;
+    height: 84vh;
+}
+
+.left-box {
+  width: 45vw;
+  height: 84vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 5vw;
+}
+
+.right-box {
+    width: 55vw;
+    height: 84vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.timeline {
+  width: 50vw;
+  color: #fff;
+  padding: 20px 20px;
+}
+.timeline ul {
+  list-style-type: none;
+  border-left: 2px solid #3c0753;
+  padding: 10px 5px;
+}
+.timeline ul li {
+  padding: 10px 10px;
+  position: relative;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.timeline ul li span {
+  display: inline-block;
+  background-color: #720455;
+  border-radius: 25px;
+  padding: 2px 5px;
+  font-size: 15px;
+  text-align: center;
+}
+.timeline ul li .content h3 {
+  font-size: 17px;
+  padding-top: 5px;
+}
+.timeline ul li .content p {
+  padding: 5px 0px 15px 0px;
+  font-size: 15px;
+}
+.timeline ul li:before {
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: #910a67;
+  border-radius: 50%;
+  left: -11px;
+  top: 28px;
+  transition: 0.5s;
+}
+
+.timeline ul li:hover:before {
+  background-color: #0f0;
+  box-shadow: 0px 0px 10px 2px #0f0;
+}
+
+.education {
+    color: white;
+}
+
+.education li {
+    padding: 1vh 1vh;
+}
+
+.date {
+    color: #910a67;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3c0753;
+    height: 5vh;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 2.25vmin;
+    opacity: 50%;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer:hover {
+    opacity: 100%;
+    transition: 0.25s;
+}
