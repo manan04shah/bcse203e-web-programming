@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: rgb(92, 91, 91);
+}
+
+body {
+    background-color: lightgrey;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    background-color: white;
+    padding: 5vh;
+}
+
+.formTitle {
+    font-size: 0.6em;
+    text-align: center;
+    font-weight: lighter;
+}
+
+/* Added CSS to align input boxes */
+label {
+    display: inline-block;
+    width: 200px; /* Adjust the width as needed */
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="radio"] {
+    height: 2vh;
+    border: 1px solid black;
+    padding: 5px;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    margin-top: 1.5vh;
+}
+
+#companyName {
+    width: 375px;
+}
+
+#owner {
+    width: 100px;
+    margin-left: 1vh;
+    margin-right: 0.1vh;
+}
+
+#dot {
+    width: 80px;
+}
+
+button {
+    width: 10vw;
+    height: 5vh;
+    background-color:black;
+    color: white;
+    border: none;
+    margin-top: 2vh;
+    cursor: pointer;
+}
+
+.radioDiv {
+    display: flex;
+    flex-direction: column;
+}
