@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: scroll;
+    padding-top: 10vh;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50vw;
+    background-color: #ebf6fc;
+    padding: 2vh;
+}
+
+.title {
+    font-size: 4.5vh;
+    color: #2e4559;
+    margin-bottom: 2vh;
+}
+
+.subtitle {
+    font-size: 3vh;
+    color: #2e4559;
+    margin-bottom: 2vh;
+}
+
+.fieldName {
+    font-size: 2.5vh;
+    color: #2e4559;
+}
+
+input, select {
+    font-size: 2vh;
+    padding: 1vh;
+    margin-bottom: 1vh;
+    color: #3d4e5e;
+    font-weight: lighter;
+}
+
+.addressInputField {
+    display: flex;
+    flex-direction: column;
+}
+
+.name input,
+.city-region input,
+.postal-country input {
+    width: 47%;
+}
+
+.postal-country select {
+    width: 49.5%;
+}
+
+.phone input,
+.email input {
+    width: 97.4%;
+}
+
+.level-output {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.membershipLevel {
+    color: #2e4559;
+    font-size: 2.25vh;
+    width: 50%;
+}
+
+.output {
+    color: #2e4559;
+    font-size: 2.25vh;
+    width: 50%;
+}
+
+.radioButton {
+    margin-bottom: 1vh;
+}
+
+.submitButton {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.submitButton button {
+    background-color: #2e4559;
+    color: white;
+    border: 0px;
+    padding: 1.5vh;
+    width: 20%;
+    border-radius: 45%;
+}

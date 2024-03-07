@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Association Membership Form</title>
+        <link rel="stylesheet" href="styles.css" />
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <form class="formContainer">
+            <div class="title">Association Membership Form</div>
+            <div class="subtitle">Member Information</div>
+            <div class="name">
+                <p class="fieldName">Name</p>
+                <div class="inputField">
+                    <input
+                        type="text"
+                        id="firstName"
+                        name="firstName"
+                        placeholder="First"
+                        required
+                    />
+                    <input
+                        type="text"
+                        id="lastName"
+                        name="lastName"
+                        placeholder="Last"
+                        required
+                    />
+                </div>
+            </div>
+            <div class="address">
+                <p class="fieldName">Address</p>
+                <div class="inputField">
+                    <div class="addressInputField">
+                        <input
+                            type="text"
+                            id="address1"
+                            name="address1"
+                            placeholder="Street Address"
+                            required
+                        />
+                        <input
+                            type="text"
+                            id="address2"
+                            name="address2"
+                            placeholder="Street Address Line 2"
+                            required
+                        />
+                        <div class="city-region">
+                            <input
+                                type="text"
+                                id="city"
+                                name="city"
+                                placeholder="City"
+                                required
+                            />
+                            <input
+                                type="text"
+                                id="region"
+                                name="region"
+                                placeholder="Region"
+                                required
+                            />
+                        </div>
+                        <div class="postal-country">
+                            <input
+                                type="text"
+                                id="postalCode"
+                                name="postalCode"
+                                placeholder="Postal / Zip Code"
+                                required
+                            />
+                            <select id="country" name="country" required>
+                                <option value="romania">Romania</option>
+                                <option value="india">India</option>
+                                <option value="usa">USA</option>
+                                <option value="uk">UK</option>
+                                <option value="australia">Australia</option>
+                                <option value="canada">Canada</option>
+                                <option value="germany">Germany</option>
+                                <option value="france">France</option>
+                                <option value="spain">Spain</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="phone">
+                <p class="fieldName">Phone</p>
+                <input
+                    type="tel"
+                    placeholder="### ### ####"
+                    maxlength="10"
+                    required
+                />
+            </div>
+            <div class="email">
+                <p class="fieldName">Email</p>
+                <input type="email" required />
+            </div>
+            <div class="subtitle">Select Your Membership Level</div>
+            <div class="level-output">
+                <div class="membershipLevel">
+                    <p class="fieldName">Annual Member</p>
+                    <br />
+                    <div class="radioButton">
+                        <input
+                            type="radio"
+                            name="membership"
+                            id="individual"
+                        />&nbsp;Individual
+                    </div>
+                    <div class="radioButton">
+                        <input
+                            type="radio"
+                            name="membership"
+                            id="family"
+                        />&nbsp;Family
+                    </div>
+                    <div class="radioButton">
+                        <input
+                            type="radio"
+                            name="membership"
+                            id="student"
+                        />&nbsp;Student
+                    </div>
+                    <div class="radioButton">
+                        <input
+                            type="radio"
+                            name="membership"
+                            id="educator"
+                        />&nbsp;Educator
+                    </div>
+                </div>
+                <div class="output">
+                    <div class="date">
+                        <p class="fieldName">Date:</p>
+                    </div>
+                    <br />
+                    <div class="membershipType">
+                        <p class="fieldName">Membership Type:</p>
+                    </div>
+                    <div class="membershipCost">
+                        <p class="fieldName">Membership Cost:</p>
+                    </div>
+                    <div class="fullName">
+                        <p class="fieldName">Name:</p>
+                    </div>
+                    <div class="mobileNumber">
+                        <p class="fieldName">Phone Number:</p>
+                    </div>
+                </div>
+            </div>
+            <div class="submitButton" onclick="submit">
+                <button type="submit">SEND</button>
+            </div>
+        </form>
+    </body>
+</html>

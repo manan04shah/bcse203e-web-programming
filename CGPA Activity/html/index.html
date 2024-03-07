@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absolute Graded CGPA Calculator</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <script src="../scripts/script.js"></script>
+</head>
+<body>
+    <div class="formDiv">
+        <form action="" method="post">
+            <div class="courseOne">
+                <div class="details">
+                    <label for="courseOne">Course 1 Name: </label>
+                    <input type="text" name="courseOne" id="courseOne">
+                    <label for="courseOne">Course 1 Credits: </label>
+                    <input type="number" name="courseOneCredits" id="courseOneCredits">
+                </div>
+                <br>
+                <div class="marks">
+                    <div class="submarks">
+                    <label for="courseOne">DA 1 Marks: </label>
+                    <input type="number" name="courseOneDA1" id="courseOneDA1" step="0.1">
+                    </div>
+                    <div class="submarks">
+                    <label for="courseOne">Quiz 1 Marks: </label>
+                    <input type="number" name="courseOneQuiz1" id="courseOneQuiz1" step="0.1">
+                    </div>
+                    <div class="submarks">
+                    <label for="courseOne">Quiz 2 Marks: </label>
+                    <input type="number" name="courseOneQuiz2" id="courseOneQuiz2" step="0.1">
+                    </div>
+                    <div class="submarks">
+                    <label for="courseOne">CAT 1 Marks: </label>
+                    <input type="number" name="courseOneCAT1" id="courseOneCAT1" step="0.1">
+                    </div>
+                    <div class="submarks">
+                    <label for="courseOne">CAT 2 Marks: </label>
+                    <input type="number" name="courseOneCAT2" id="courseOneCAT2" step="0.1">
+                    </div>
+                    <div class="submarks">
+                    <label for="courseOne">FAT Marks: </label>
+                    <input type="number" name="courseOneFAT" id="courseOneFAT" step="0.1">
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="submitButtonDiv">
+                <input value="Calculate" class="submitButton" onclick="calculateGPA()">
+                <div class="displayGrade">
+                    
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

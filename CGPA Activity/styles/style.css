@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.formDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    border: 1vh solid black;
+    padding: 2vh;
+    width: 65vw;
+}
+
+label {
+    margin: 1vh 1vh;
+    display: inline-block;
+    width: 10vw;
+}
+
+.submitButton {
+    margin: 2vh 1vh;
+    display: inline-block;
+    width: 10vw;
+    padding: 1vh;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.submitButtonDiv,
+.displayDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
